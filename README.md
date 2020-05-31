@@ -1,3 +1,5 @@
+Project Collaborators -  Ben Robertson, Michaela Mason and Owen Saunders
+
 # Viewing the globe
 ---------------------
 
