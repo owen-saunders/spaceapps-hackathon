@@ -3,6 +3,8 @@
 
 After cloning the repository, you can view the WebGL globe locally using a python installation by running `python -m http.server` from the project directory and opening `localhost:8000` in your web browser. 
 
+![]{./globe.png}
+
 # About **WebGL Globe**
 ---------------------
 
