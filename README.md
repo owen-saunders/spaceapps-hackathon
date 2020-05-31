@@ -11,6 +11,11 @@ The hackathon project intended to use emission grid images as backgrounds on the
 
 ![](NO2_Levels.png)
 
+# Traffic Web Searching
+------------------------
+Analysis of the frequency of the search term 'Traffic' in multiple different languages was also performed. The dataset is attached and was generated from Google Trends data. Below image shows the results over the last few months.
+![](Traffic_Search_Volume.png)
+
 # About **WebGL Globe**
 ---------------------
 
