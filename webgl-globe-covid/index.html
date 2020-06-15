@@ -10,7 +10,7 @@
       body {
         margin: 0;
         padding: 0;
-        background: #000000 url(/globe/loading.gif) center center no-repeat;
+        background: #000000 url(/webgl-globe-covid/loading.gif) center center no-repeat;
         color: #ffffff;
         font-family: sans-serif;
         font-size: 13px;
@@ -205,10 +205,10 @@
     <span>The Chrome Experiment</span>
   </a>
 
-  <script type="text/javascript" src="/globe/third-party/Detector.js"></script>
-  <script type="text/javascript" src="/globe/third-party/three.min.js"></script>
-  <script type="text/javascript" src="/globe/third-party/Tween.js"></script>
-  <script type="text/javascript" src="/globe/globe.js"></script>
+  <script type="text/javascript" src="/webgl-globe-covid/third-party/Detector.js"></script>
+  <script type="text/javascript" src="/webgl-globe-covid/third-party/three.min.js"></script>
+  <script type="text/javascript" src="/webgl-globe-covid/third-party/Tween.js"></script>
+  <script type="text/javascript" src="/webgl-globe-covid/globe.js"></script>
   <script type="text/javascript">
 
     if(!Detector.webgl){
@@ -321,7 +321,7 @@ var container = document.getElementById('container');
       
       
       xhr = new XMLHttpRequest();
-      xhr.open('GET', '/globe/Covid_CasesJanMay.json', true);
+      xhr.open('GET', '/webgl-globe-covid/Covid_CasesJanMay.json', true);
       xhr.onreadystatechange = function(e) {
         if (xhr.readyState === 4) {
           if (xhr.status === 200) {
