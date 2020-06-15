@@ -18,7 +18,7 @@ As of 15/06/2020, the NO2 emissions have been added as a base layer on the globe
 
 # Traffic Web Searching
 ------------------------
-Analysis of the frequency of the search term 'Traffic' in multiple different languages was also performed. The dataset is attached and was generated from Google Trends data. Below image shows the results over the last few months.
+Analysis of the frequency of the search term 'Traffic' in multiple different languages was also performed. The dataset is attached and was generated from Google Trends data. Below image shows the results over the last few months, credits to Michaela Mason.
 ![](Traffic_Search_Volume.png)
 
 # About **WebGL Globe**
