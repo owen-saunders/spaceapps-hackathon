@@ -12,6 +12,8 @@ After cloning the repository, you can view the WebGL globe locally using a pytho
 The hackathon project intended to use emission grid images as backgrounds on the globe for simplistic data visualisation. Time constraints left this section half finished. Current progress is shown in the Data Manipulation notebook.
 
 ![](NO2_Levels.png)
+As of 15/06/2020, the NO2 emissions have been added as a base layer on the globe.
+![](world_With_NO2_example.png)
 
 # Traffic Web Searching
 ------------------------
