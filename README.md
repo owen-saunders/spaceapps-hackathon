@@ -13,7 +13,7 @@ The hackathon project intended to use emission grid images as backgrounds on the
 
 ![](NO2_Levels.png)
 As of 15/06/2020, the NO2 emissions have been added as a base layer on the globe.
-![](world_With_NO2_example.png)
+![](world_with_NO2_example.png)
 
 # Traffic Web Searching
 ------------------------
