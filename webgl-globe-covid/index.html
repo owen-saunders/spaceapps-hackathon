@@ -290,7 +290,8 @@
 '2020-05-25',
 '2020-05-27',
 '2020-05-29']
-var container = document.getElementById('container');
+
+      var container = document.getElementById('container');
       var globe = new DAT.Globe(container);
 
       console.log(globe);
@@ -300,6 +301,13 @@ var container = document.getElementById('container');
         return function() {
           new TWEEN.Tween(globe).to({time: t/years.length},500).easing(TWEEN.Easing.Cubic.EaseOut).start();
           var y = document.getElementById('year'+years[t]);
+
+          // Switching of material when different points/days are selected
+          var imageDir = '/webgl-globe-covid/';
+          var imgType = 'NO2';
+          globe.scene.children[0].material.uniforms['texture'].value = THREE.ImageUtils.loadTexture(imageDir+'world' + imgType + years[t] + '.png');
+          globe.scene.children[0].material.needsUpdate = true;
+
           if (y.getAttribute('class') === 'year active') {
             return;
           }

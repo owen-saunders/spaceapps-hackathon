@@ -218,9 +218,6 @@ DAT.Globe = function(container, opts) {
   };
 
   function createPoints() {
-    // TODO: Enable switching of material when different points/days are selected
-    scene.children[0].material.uniforms['texture'].value = THREE.ImageUtils.loadTexture(imgDir+'worldNO2.png');
-
     if (this._baseGeometry !== undefined) {
       if (this.is_animated === false) {
         this.points = new THREE.Mesh(this._baseGeometry, new THREE.MeshBasicMaterial({
